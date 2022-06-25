@@ -6,3 +6,4 @@ c_src/*.o
 .eunit/*
 .#*
 deps/*
+_build
