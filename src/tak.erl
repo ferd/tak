@@ -32,7 +32,7 @@
 -type cert_chain() :: [cert()].
 -type pin() :: {CACert::cert(),
                 PinnedCert::cert()}.
--type ssl_options() :: [ssl:ssl_option()].
+-type ssl_options() :: [ssl:tls_option()].
 
 %%====================================================================
 %% API
